@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #ffffff;
+    color: #22343d;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #22343d;
+    font-weight: 500;
+}
+
+.auth a {
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.sign-in {
+    color: #22343d;
+}
+
+.sign-up {
+    background: #02897a;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 5px;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #475e69;
+}
+
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-primary {
+    background: #02897a;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    background: none;
+    border: none;
+    color: #02897a;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.hero-image {
+    position: relative;
+}
+
